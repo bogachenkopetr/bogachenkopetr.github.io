@@ -1,24 +1,24 @@
 body{
     background: #bdf4f0;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 150px;
+    margin-right:150px;
     text-align: justify;
     }
 h1{
-  font-family:Georgia, 'Times New Roman', Times, serif;
-}
+  font-family:Helvetica, sans-serif;
+  }
 h2{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
+  font-family:Helvetica, monospace, sans-serif;
+  }
 p{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
+ font-family:Georgia, serif;
+ }
 a:visited{
-    color: black;
-}
+         color: black;
+         }
 a:hover{
-    color: red;
-}
+       color: red;
+       }
 li{
-    margin-bottom: 20px;
-}
+  margin-bottom: 20px;
+  }
