@@ -1,0 +1,77 @@
+p{
+    font-size: 100px;
+}
+
+.test1{
+    color: #ff0000;
+}
+.test1:hover{
+    color: blue;
+}
+.test2{
+    color: #540c4b;
+}
+.test2:hover{
+    color: red;
+}
+.test3{
+    color: #00ff00;
+}
+.test3:hover{
+    color: black;
+}
+.test4{
+    color: #591e07;
+}
+.test4:hover{
+    color: rosybrown;
+}
+.test5{
+    color: #df1f84;
+}
+.test5:hover{
+    color: green;
+}
+.test6{
+    color: #cc6600;
+}
+.test6:hover{
+    color: red;
+}
+.test7{
+    color: #ff0066;
+}
+.test7:hover{
+    color: green;
+}
+.test8{
+    color: #92d050;
+}
+.test8:hover{
+    color: blue;
+}
+.test9{
+    color: #09dd6e;
+}
+.test9:hover{
+    color: purple;
+}
+.test10{
+    color: #ddd423;
+}
+.test10:hover{
+    color: green;
+}
+.test11{
+    color: #f2700e;
+}
+.test11:hover{
+    color: blueviolet;
+}
+.test12{
+    color: #ff0066;
+}
+.test12:hover{
+    color: orange;
+}
+
