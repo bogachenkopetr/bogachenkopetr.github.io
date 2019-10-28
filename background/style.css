@@ -1,0 +1,58 @@
+#test{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 200px auto;
+    border-radius: 10px 70% 10px 70%;
+
+
+
+/*#test{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 200px auto;
+    background:repeating-linear-gradient(45deg, red 0px, red 10px, transparent 10px, transparent 20px), repeating-linear-gradient(-45deg, purple 0px, purple 10px, transparent 10px, transparent 20px) ;
+}*/
+
+
+
+/*#test{
+    width: 32px;
+    height: 32px;
+    border: 1px solid red;
+    margin: 200px auto;
+    background: url(https://icon-library.net/images/icon-sprite/icon-sprite-29.jpg); 
+    background-position: 
+}*/
+
+
+
+
+
+
+
+/*#test{
+    width: 201px;
+    height: 71px;
+    border: 1px solid gray;
+    margin: 200px auto;
+    background: url(https://cms-assets.tutsplus.com/uploads/users/22/posts/21723/image/button-start-spritesheet.png);
+}
+#test:hover{
+    background-position: 0px -71px;
+}
+#test:active{
+    background-position: 0px -142px;
+}*/
+
+
+
+/*#test{
+    width: 600px;
+    height: 600px;
+    border: 1px solid red;
+    margin: 200px auto;
+    background: url(https://image.flaticon.com/icons/png/512/124/124010.png) left top / cover no-repeat, url(https://i.ytimg.com/vi/HSAIvbP_lrY/maxresdefault.jpg) calc(100% - 50px) 50px / 100px no-repeat ;
+    
+}*/
