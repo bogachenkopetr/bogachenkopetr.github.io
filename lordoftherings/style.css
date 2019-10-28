@@ -1,42 +1,14 @@
+
 body{
-    background: #bdf4f0;
-    margin-left: 150px;
-    margin-right: 150px;
-    text-align: justify;
-    font-family: Georgia, serif;
+    background: #bdf4f0 !important;
+    font-family:Georgia, serif;
 }
 h1{
-  font-family:Helvetica, sans-serif;
+    font-family:Helvetica, sans-serif;
 }
 h2{
-  font-family:Helvetica, monospace, sans-serif;
+    font-family:Helvetica, monospace, sans-serif;
 }
-a:visited{
-    color: black;
-}
-a:hover{
-    color: red;
-}
-li{
-    margin-bottom: 20px;
-}
-.clearfix:after{
-    content:"";
-    display: block;
-    clear: both;
-}
-.logo{
-    float: left;
-}
-.chapters{
-    list-style: none;
-    padding-left: 40px;
-}
-.chapters li{
-    float: left;
-    margin-left: 20px;    
-}
-.footer li{
-    display:inline;
-    margin-left: 20px;
+.logo .fas{
+    font-size: 30px;
 }
