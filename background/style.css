@@ -1,0 +1,9 @@
+#test{
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 200px auto;
+    background: 
+    url(img/plane.png) calc(100% - 290px) 230px / 250px no-repeat, url(img/sky.jpg) right center / cover no-repeat;
+  } 
+    
