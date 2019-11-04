@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <table border="1" width="300" height="150">
+     <colgroup>
+         <col>
+         <col>
+         <col>
+         <col class="test4">
+     </colgroup>
+      <tr>
+         <th><p>ячейка1</p></th>
+          <th>ячейка2</th>
+          <th>ячейка3</th>
+          <th>ячейка4</th>
+      </tr>
+      <tr>
+          <th colspan="2">ячейка5</th>
+         <!-- <th>ячейка</th> colspan объеденяет справа следующую ячейку или ячейки-->
+          <th>ячейка6</th>
+          <th>ячейка7</th>
+      </tr> 
+      <tr>
+          <th>ячейка8</th>
+          <th>ячейка9</th>
+          <th rowspan="2">ячейка10</th>
+          <!--rowspan объеденяет следующую ячейку вниз-->
+          <th>ячейка11</th>
+      </tr> 
+      <tr>
+          <th>ячейка12</th>
+          <th>ячейка13</th>
+          <!-- <th>ячейка</th> -->
+          <th>ячейка14</th>
+      </tr> 
+   </table>
+    
+</body>
+</html>
