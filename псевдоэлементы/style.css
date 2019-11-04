@@ -1,0 +1,28 @@
+#test{
+    width: 300px;
+    height: 300px;
+    background: lightblue;
+    margin: 200px auto;
+    position: relative;
+}
+#test::before{
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: orange;
+    content:"2";
+    border-radius: 50%;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    line-height: 100px;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+    
+}
+#test:hover::before{
+    background: green;
+    content:"3";
+}
