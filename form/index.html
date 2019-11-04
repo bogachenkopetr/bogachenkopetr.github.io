@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы для регистрации</title>
+</head>
+<body>
+    <header>
+        <img src="images/mail.png" alt="image">
+    </header>
+    <h1 align="middle">Регистрация нового почтового ящика</h1>
+    <p align="middle">Вы сможете пользоваться бесплатной электронной почтой и другими продуктами Mail.Ru.<br>
+      найти друзей и общаться без ограничений как на компьютере, так и на мобильном.
+    </p>
+    <form action="/" method="" align="middle">
+       <p>
+           <label>Имя</label>
+           <input type="text" name="firstname" maxlength="120" value="" size="50">
+       </p>
+       <p>
+           <label>Фамилия</label>
+           <input type="text" name="lastname" maxlength="120" value="" size="50">
+       </p>
+       <p>
+           <label>День рождения</label>
+           <select name="day">
+                <option>день</option>
+           </select>
+           <select name="month">
+                <option>месяц</option>
+           </select>
+         
+           <select name="year">
+                <option>год</option>
+           </select>
+       </p>
+       <p>
+            <label>Город</label>
+            <input type="text" name="city" maxlength="120" value="" size="50">  
+       </p>
+       <p>
+           <label>Пол</label>
+           <input type="radio" name="gender">Мужской
+           <input type="radio" name="gender">Женский
+       </p>
+       <p>
+           <label>Почтовый ящик</label>
+           <input type="text" name="email" maxlength="120" value="" size="40">
+           <select name="email">
+               <option>@mail.ru</option>
+           </select> 
+       </p>
+       <p>
+           <label>Пароль</label>
+           <input type="password" name="password" maxlength="120" value="" size="50">
+       </p>
+       <p>
+           <label>Повторите пароль</label>
+           <input type="password" name="confPassword" maxlength="120" value="" size="50">
+       </p>    
+       <h2 align="middle">Если Вы забудете пароль</h2>
+       <p align="middle">С помощью мобильного телефона Вы сможете восстановить пароль.<br>                                             Укажите номер и в течение минуты Вам придет сообщение с кодом подтверждения.
+       </p>
+       <p>
+           <label>Мобильный телефон</label>
+           <select name="country">
+               <option>Беларусь</option>
+           </select>
+           <input type="text" name="phone" maxlength="11" value="+375" size="30">   
+       </p>
+       <p align="middle">
+           <a href="#">У меня нет мобильного телефона</a>
+       </p>
+       <input type="image" src="images/button.jpg">
+    </form> 
+    
+</body>
+</html>
